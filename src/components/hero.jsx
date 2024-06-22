@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 export default function Hero() {
     return (
         <section
-            className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center bg-cover bg-center bg-no-repeat"
+            className="relative w-full h-[80vh] min-h-[600px] flex flex-col-reverse md:flex-row items-center justify-center bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: `url('/placeholder.svg?height=800&width=1600')` }}
         >
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.5)]" />

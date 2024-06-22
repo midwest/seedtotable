@@ -108,7 +108,7 @@ export default function Benefits() {
                         </TabsContent>
                     </Tabs>
                 </div>
-                <div className="mx-auto mt-12 max-w-4xl">
+                <div className="mx-[50px] sm:mx-auto mt-12 max-w-4xl">
                     <Carousel className="w-full">
                         <CarouselContent>
                             <CarouselItem>
