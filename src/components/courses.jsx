@@ -57,7 +57,6 @@ export default function Courses() {
                             <AccordionItem value="item-1">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Soil Preparation</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -70,7 +69,6 @@ export default function Courses() {
                             <AccordionItem value="item-2">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Plant Selection and Design</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -83,7 +81,6 @@ export default function Courses() {
                             <AccordionItem value="item-3">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Plant Care and Maintenance</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -96,7 +93,6 @@ export default function Courses() {
                             <AccordionItem value="item-4">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Organic and Sustainable Practices</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -198,7 +194,6 @@ function Intermediate() {
                             <AccordionItem value="item-1">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Advanced Soil Management</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -211,7 +206,6 @@ function Intermediate() {
                             <AccordionItem value="item-2">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Plant Propagation Methods</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -224,7 +218,6 @@ function Intermediate() {
                             <AccordionItem value="item-3">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Advanced Garden Design</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -237,7 +230,6 @@ function Intermediate() {
                             <AccordionItem value="item-4">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Plant Care for Specific Environments</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -295,7 +287,6 @@ function Advanced() {
                             <AccordionItem value="item-1">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Advanced Soil Management</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -308,7 +299,6 @@ function Advanced() {
                             <AccordionItem value="item-2">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Permaculture Design and Food Forests</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -321,7 +311,6 @@ function Advanced() {
                             <AccordionItem value="item-3">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Integrated Pest Management</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -334,7 +323,6 @@ function Advanced() {
                             <AccordionItem value="item-4">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Plant Breeding and Genetics</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -440,7 +428,6 @@ function Fermentation() {
                             <AccordionItem value="item-1">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Introduction to Fermentation</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -453,7 +440,6 @@ function Fermentation() {
                             <AccordionItem value="item-2">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Fermenting Vegetables and Fruits</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -466,7 +452,6 @@ function Fermentation() {
                             <AccordionItem value="item-3">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Fermenting Dairy and Grains</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -479,7 +464,6 @@ function Fermentation() {
                             <AccordionItem value="item-4">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Fermented Beverages</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
@@ -492,7 +476,6 @@ function Fermentation() {
                             <AccordionItem value="item-5">
                                 <AccordionTrigger className="group flex items-center justify-between rounded-lg px-4 py-2 transition-all hover:bg-muted">
                                     <span>Fermentation for Preservation and Health</span>
-                                    <ChevronRightIcon className="w-4 h-4 transition-transform group-data-[state=open]:rotate-90" />
                                 </AccordionTrigger>
                                 <AccordionContent className="text-muted-foreground">
                                     <ul className="space-y-2 pl-4">
