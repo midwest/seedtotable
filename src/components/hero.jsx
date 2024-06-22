@@ -1,49 +1,49 @@
-import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 
 export default function Hero() {
     return (
-        <section className="w-screen py-12 md:py-24 lg:py-32  bg-gradient-to-r from-[#0077b6] to-[#00b894]">
-            <div className="container px-4 md:px-6">
-                <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
-                    <div className="flex flex-col justify-center space-y-4">
-                        <div className="space-y-2">
-                            <h1 className="text-4xl font-bold tracking-tighter text-white sm:text-5xl xl:text-6xl/none">
-                                Join the Ultimate Crypto Learning Community
-                            </h1>
-                            <p className="max-w-[600px] text-gray-200 md:text-xl">
-                                Stay ahead in the world of cryptocurrency with expert insights, latest news, and exclusive resources.
-                            </p>
-                        </div>
-                        <div className="space-y-2">
-                            <h2 className="text-2xl font-bold text-white">About Crypto College</h2>
-                            <p className="text-gray-200 md:text-lg">
-                                Crypto College is your one-stop destination for comprehensive crypto education and resources. Our
-                                mission is to equip you with in-depth crypto knowledge and essential tools to navigate the ever-evolving
-                                digital asset landscape.
-                            </p>
-                            <ul className="space-y-1 text-gray-200 md:text-lg">
-                                <li>✓ Expert articles and guides</li>
-                                <li>✓ Live webinars with industry leaders</li>
-                                <li>✓ Exclusive research reports</li>
-                            </ul>
-                        </div>
-                        {/*<div className="w-full max-w-sm space-y-2">
-                            <form className="flex gap-2">
-                                <Input type="email" placeholder="Enter your email" className="max-w-lg flex-1" />
-                                <Button type="submit" className="bg-[#00b894] hover:bg-[#00a383] text-white">
-                                    Sign Up Now
-                                </Button>
-                            </form>
-                            <p className="text-xs text-gray-200">Start your crypto journey with Crypto College.</p>
-                        </div>*/}
-                    </div>
-                    <iframe width="350" height="200" src="https://www.youtube.com/embed/vzAfh0O_MUo?si=IdfYwr-Elfdd52Hl"
-                            className={"sm:w-[560px] sm:h-[315px] border-none"}
-                            title="YouTube video player" frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <section
+            className="relative w-full h-[80vh] min-h-[600px] flex items-center justify-center bg-cover bg-center bg-no-repeat"
+            style={{ backgroundImage: `url('/placeholder.svg?height=800&width=1600')` }}
+        >
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.5)]" />
+            <div className="container px-4 md:px-6 z-10 flex flex-col items-center text-center space-y-6">
+                <div className="space-y-3">
+                    <h1 className="text-4xl font-bold text-white sm:text-5xl md:text-6xl">
+                        Unlock the Secrets of Organic Gardening
+                    </h1>
+                    <p className="text-lg text-white md:text-xl">
+                        Discover the joy of growing your own fresh, nutrient-rich produce with our comprehensive online course.
+                    </p>
                 </div>
+                <Button className="inline-flex h-12 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50">
+                    Enroll Now
+                </Button>
+            </div>
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-full max-w-md">
+                <Card className="p-6 bg-background shadow-lg">
+                    <CardHeader>
+                        <CardTitle>Course Highlights</CardTitle>
+                    </CardHeader>
+                    <CardContent className="grid grid-cols-2 gap-4">
+                        <div className="flex flex-col items-center bg-gradient-to-br from-green-100/80 to-green-200/80 p-4 rounded-lg shadow-md transition-colors hover:from-green-200/90 hover:to-green-300/90">
+                            <span className="text-lg font-bold text-green-700">Plant Propagation Methods</span>
+                        </div>
+                        <div className="flex flex-col items-center bg-gradient-to-br from-green-100/80 to-green-200/80 p-4 rounded-lg shadow-md transition-colors hover:from-green-200/90 hover:to-green-300/90">
+                            <span className="text-lg font-bold text-green-700">Permaculture Principles</span>
+                        </div>
+                        <div className="flex flex-col items-center bg-gradient-to-br from-green-100/80 to-green-200/80 p-4 rounded-lg shadow-md transition-colors hover:from-green-200/90 hover:to-green-300/90">
+                            <span className="text-lg font-bold text-green-700">Pest Control Methods</span>
+                        </div>
+                        <div className="flex flex-col items-center bg-gradient-to-br from-green-100/80 to-green-200/80 p-4 rounded-lg shadow-md transition-colors hover:from-green-200/90 hover:to-green-300/90">
+                            <span className="text-lg font-bold text-green-700">Post Processing</span>
+                        </div>
+                        <div className="flex flex-col items-center col-span-full bg-gradient-to-br from-green-100/80 to-green-200/80 p-4 rounded-lg shadow-md w-full">
+                            <span className="text-2xl font-extrabold text-green-700">And much more</span>
+                        </div>
+                    </CardContent>
+                </Card>
             </div>
         </section>
     )

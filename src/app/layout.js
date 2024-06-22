@@ -1,21 +1,23 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/app/navbar";
+import Nav from "@/app/nav";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Crypto College",
-  description: "Your one stop shop for crypto educational resources. Coming Soon",
+  title: "Seed to Table Institute",
+  description: "Your one stop shop for organic gardening info. Coming Soon",
 };
 
 export default function RootLayout({ children }) {
-  return (
-      <html lang="en">
-      <body className={"bg-slate-700"}>
-      <Navbar />
-      {children}</body>
-      </html>
-  );
+    return (
+        <html lang="en">
+        <body className={"bg-slate-700"}>
+        <Nav/>
+        {children}</body>
+        <Footer/>
+        </html>
+    );
 }
 
