@@ -6,7 +6,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 export default function Courses() {
     return (
-        <section className="flex min-h-screen flex-col items-center px-4 sm:px-48 sm:mt-[250px] justify-between ">
+        <section className="flex min-h-screen flex-col items-center px-4 sm:px-24  md:px-24 lg:px:36 sm:mt-[250px] justify-between ">
             <Intro />
             <Intermediate />
             <Advanced />
