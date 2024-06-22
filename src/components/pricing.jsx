@@ -49,8 +49,7 @@ export default function Pricing() {
                                 <div className="flex flex-col items-center gap-2">
                                     <h3 className="text-2xl font-bold text-green-800">Seedling</h3>
                                     <div className="flex items-baseline gap-1">
-                                        <span className="text-4xl font-bold text-green-800">${annualPricing ? "49" : "59"}</span>
-                                        <span className="text-green-700">/{annualPricing ? "year" : "month"}</span>
+                                        <span className="text-4xl font-bold text-green-800">Free</span>
                                     </div>
                                 </div>
                             </CardHeader>
@@ -83,7 +82,7 @@ export default function Pricing() {
                                 <div className="flex flex-col items-center gap-2">
                                     <h3 className="text-2xl font-bold">Green Thumb</h3>
                                     <div className="flex items-baseline gap-1">
-                                        <span className="text-4xl font-bold">${annualPricing ? "99" : "129"}</span>
+                                        <span className="text-4xl font-bold">${annualPricing ? "79" : "10"}</span>
                                         <span className="text-white">/{annualPricing ? "year" : "month"}</span>
                                     </div>
                                 </div>
@@ -121,7 +120,7 @@ export default function Pricing() {
                                 <div className="flex flex-col items-center gap-2">
                                     <h3 className="text-2xl font-bold text-green-800">Master Gardener</h3>
                                     <div className="flex items-baseline gap-1">
-                                        <span className="text-4xl font-bold text-green-800">${annualPricing ? "199" : "249"}</span>
+                                        <span className="text-4xl font-bold text-green-800">${annualPricing ? "200" : "30"}</span>
                                         <span className="text-green-700">/{annualPricing ? "year" : "month"}</span>
                                     </div>
                                 </div>
