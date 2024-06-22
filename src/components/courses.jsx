@@ -6,7 +6,7 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 
 export default function Courses() {
     return (
-        <section className="flex min-h-screen flex-col items-center sm:mt-[250px] justify-between ">
+        <section className="flex min-h-screen flex-col items-center px-4 sm:px-48 sm:mt-[250px] justify-between ">
             <Intro />
             <Intermediate />
             <Advanced />
@@ -135,7 +135,7 @@ export default function Courses() {
 function Intermediate() {
     return (
         <section className="px-4 py-8 md:py-12 lg:py-16">
-            <div className="mx-auto max-w-7xl grid gap-8 lg:grid-cols-[400px_1fr]">
+            <div className="mx-auto max-w-7xl sm:grid gap-8 lg:grid-cols-[400px_1fr] flex flex-col-reverse md:flex-row">
                 <div>
                     <Card>
                         <CardHeader>
@@ -365,7 +365,7 @@ function Advanced() {
 function Fermentation() {
     return (
         <section className="px-4 py-8 md:py-12 lg:py-16">
-            <div className="mx-auto max-w-7xl grid gap-8 lg:grid-cols-[400px_1fr]">
+            <div className="mx-auto max-w-7xl sm:grid gap-8 lg:grid-cols-[400px_1fr] flex flex-col-reverse md:flex-row">
                 <div>
                     <Card>
                         <CardHeader>

@@ -57,7 +57,7 @@ export default function Hero() {
                 </div>
             </section>
             <div
-                className="w-full max-w-md">
+                className="w-full max-w-md sm:hidden">
                 <Card className="p-6 bg-background shadow-lg">
                     <CardHeader>
                         <CardTitle>Course Highlights</CardTitle>
